@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Busqueda</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Modelo:  ' + ${vehiculo.modelo}" />
+    <p th:text="'Color:  ' + ${vehiculo.color}" />
+    <p th:text="'Anio:  ' + ${vehiculo.anio}" />
+    <p th:text="'Precio:  ' + ${vehiculo.precio}" />
+    <p th:text="'Stock:  ' + ${vehiculo.stock}" />
+    <a href="/buscar"> Realice otra busqueda</a>
+        <a href="/ingreso"> Volver al inicio</a>
+</body>
+</html>
